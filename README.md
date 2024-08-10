@@ -35,37 +35,37 @@ Labeled Dataset Repository:
       <th>0</th>
       <td>Reentrancy</td>
       <td>This vulnerability occurs when a contract calls an external contract, and the called contract then calls back into the calling contract before the first invocation is finished. </td>
-      <td>81</td>   
+      <td>10</td>   
     </tr>
     <tr>
       <th>1</th>
       <td>Arithmetic</td>
       <td>This occurs when an arithmetic opera- tion generates a value that exceeds the range that can be represented within the fixed number of bits designated for integers in the EVM. </td>
-      <td>65</td>
+      <td>10</td>
     </tr>
     <tr>
       <th>2</th>
       <td>Unchecked send</td>
       <td>This vulnerability happens when the call fails accidentally or an attacker forces the call to fail. It is also described as ``unhandled exceptions``, ``exception disorder``, or ``unchecked low-level call``.</td>
-      <td>52</td>
+      <td>10</td>
     </tr>
     <tr>
       <th>3</th>
       <td>Unsafe delegatecall</td>
       <td>This vulnerability rises from the DELEGATECALL instruction, which allows a contract to dynamically load code from another contract at runtime.</td>
-      <td>12</td>
+      <td>10</td>
     </tr>
     <tr>
       <th>4</th>
       <td>Transaction Ordering Dependence</td>
       <td>This vulnerability, is also described as TOD, arises when a contract’s behaviour depends on the order of transactions.</td>
-      <td>60</td>
+      <td>10</td>
     </tr>
       <tr>
       <th>5</th>
       <td>Time manipulation</td>
       <td>This vulnerability arises when smart contracts rely on the timestamp information from blocks.</td>
-      <td>60</td>
+      <td>10</td>
     </tr>
     <tr>
       <th>6</th>
@@ -77,25 +77,25 @@ Labeled Dataset Repository:
       <th>7</th>
       <td>Authorization through tx.origin</td>
       <td>This vulnerability arises when the tx.origin variable is exploited by attackers. </td>
-      <td>11</td>
+      <td>10</td>
     </tr>
       <tr>
       <th>8</th>
       <td>Unsafe suicidal</td>
       <td>This vulnerability manifests when the SELFDESTRUCT function is improperly secured and subsequently exploited by attackers. </td>
-      <td>60</td>
+      <td>10</td>
     </tr>
         <tr>
       <th>9</th>
       <td>Gasless send</td>
       <td>This vulnerability occurs when there’s an insufficient amount of gas to carry out an external call, resulting in the reversion of the transaction.</td>
-      <td>60</td>
+      <td>10</td>
     </tr>
         <tr>
       <th>10</th>
       <td>Safe contracts</td>
       <td>This subdataset contains no vulnerable contracts</td>
-      <td>17</td>
+      <td>10</td>
     </tr>
   </tbody>
 </table>
