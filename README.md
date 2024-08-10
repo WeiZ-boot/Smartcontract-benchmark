@@ -1,17 +1,10 @@
 # smartcontract-benchmark
-These repositories contain datasets, including a small dataset, a labelled dataset with 389 test cases, and a scaled dataset.
+These repositories contain datasets, including a Labeled dataset.
 
-Small Dataset Repository:
+Labeled Dataset Repository:
 - Contains 110 contract test cases divided into 11 subdatasets.
 - Includes 10 subdatasets with known vulnerabilities in the Top 10 categories.
 - Provides one subdataset with correct test cases.
-
-Labelled Dataset Repository:
-- Hosts 389 test cases, with 372 identified as vulnerable and 17 labeled as safe.
-
-Scaled Dataset Repository:
-- Includes 20,000 unique Solidity contracts from October 25, 2016, to February 23, 2023.
-
 
 ## Top 10 categories:
 1. Reentrancy
