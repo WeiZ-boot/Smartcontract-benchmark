@@ -1,5 +1,4 @@
 # smartcontract-benchmark
-These repositories contain datasets, including a Labeled dataset.
 
 Labeled Dataset Repository:
 - Contains 110 contract test cases divided into 11 subdatasets.
